@@ -1,0 +1,15 @@
+CREATE DATABASE bsisBa;
+
+CREATE TABLE students (
+	StudentID INT PRIMARY KEY,
+ 	FirstName VARCHAR (50), 
+	LastName VARCHAR (50), 
+	Email VARCHAR (255), 
+	Course VARCHAR (50), 
+	username VARCHAR (255), 	
+	PASSWORD VARCHAR (255)
+);
+
+INSERT INTO students(StudentID, FirstName, LastName, Email, Course, username, PASSWORD)
+VALUES ('1', 'Arlet', 'Boreta', 'arlet143@gmail.com', 'BSIS-3A', 'arlet09', 'arlet143'),
+('2', 'Faith', 'Resayaga', 'faith143@gmail.com', 'BSIS-3A', 'faith01', 'faith143');
